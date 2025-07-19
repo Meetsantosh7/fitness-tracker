@@ -1,0 +1,58 @@
+<svg width="300" height="200" viewBox="0 0 300 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="avocadoSkin" cx="30%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#4ade80"/>
+      <stop offset="70%" stop-color="#22c55e"/>
+      <stop offset="100%" stop-color="#16a34a"/>
+    </radialGradient>
+    <radialGradient id="avocadoFlesh" cx="40%" cy="30%" r="80%">
+      <stop offset="0%" stop-color="#fef3c7"/>
+      <stop offset="60%" stop-color="#fde047"/>
+      <stop offset="100%" stop-color="#facc15"/>
+    </radialGradient>
+    <radialGradient id="avocadoPit" cx="30%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#d4d4d8"/>
+      <stop offset="100%" stop-color="#a3a3a3"/>
+    </radialGradient>
+  </defs>
+  
+  <rect width="300" height="200" fill="#f0fdf4"/>
+  
+  <!-- Cutting board -->
+  <rect x="50" y="140" width="200" height="40" fill="#d2b48c" rx="5"/>
+  <rect x="55" y="135" width="190" height="35" fill="#daa520" rx="3"/>
+  
+  <!-- Avocado half shadow -->
+  <ellipse cx="155" cy="165" rx="45" ry="15" fill="#000000" opacity="0.1"/>
+  
+  <!-- Avocado outer skin -->
+  <path d="M150 60 Q120 70 110 100 Q105 130 120 150 Q140 170 150 175 Q160 170 180 150 Q195 130 190 100 Q180 70 150 60 Z" fill="url(#avocadoSkin)"/>
+  
+  <!-- Avocado flesh -->
+  <path d="M150 70 Q125 78 118 105 Q115 125 125 145 Q140 160 150 163 Q160 160 175 145 Q185 125 182 105 Q175 78 150 70 Z" fill="url(#avocadoFlesh)"/>
+  
+  <!-- Avocado pit -->
+  <ellipse cx="150" cy="115" rx="18" ry="22" fill="url(#avocadoPit)"/>
+  <ellipse cx="148" cy="110" rx="12" ry="15" fill="#e5e7eb"/>
+  
+  <!-- Skin texture -->
+  <g fill="#15803d" opacity="0.6">
+    <circle cx="130" cy="85" r="2"/>
+    <circle cx="170" cy="90" r="1.5"/>
+    <circle cx="125" cy="110" r="1"/>
+    <circle cx="175" cy="115" r="2"/>
+    <circle cx="135" cy="135" r="1.5"/>
+    <circle cx="165" cy="140" r="1"/>
+  </g>
+  
+  <!-- Flesh highlights -->
+  <ellipse cx="140" cy="95" rx="12" ry="8" fill="#ffffff" opacity="0.6"/>
+  <ellipse cx="165" cy="105" rx="8" ry="6" fill="#ffffff" opacity="0.4"/>
+  
+  <!-- Pit highlight -->
+  <ellipse cx="145" cy="105" rx="4" ry="6" fill="#ffffff" opacity="0.8"/>
+  
+  <!-- Knife beside -->
+  <rect x="220" y="150" width="50" height="3" fill="#c0c0c0"/>
+  <rect x="215" y="148" width="8" height="7" fill="#8b4513"/>
+</svg>

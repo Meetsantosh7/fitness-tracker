@@ -1,0 +1,42 @@
+<svg width="300" height="200" viewBox="0 0 300 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="tunaGradient" cx="50%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#ffb3ba"/>
+      <stop offset="50%" stop-color="#ff6b7a"/>
+      <stop offset="100%" stop-color="#dc143c"/>
+    </radialGradient>
+  </defs>
+  
+  <rect width="300" height="200" fill="#f8fafc"/>
+  
+  <!-- Plate -->
+  <ellipse cx="150" cy="155" rx="100" ry="18" fill="#ffffff"/>
+  <ellipse cx="150" cy="152" rx="95" ry="15" fill="#f8f9fa"/>
+  
+  <!-- Tuna steak -->
+  <path d="M90 100 Q110 80 150 85 Q190 80 210 100 Q215 115 200 130 Q180 140 150 135 Q120 140 105 130 Q85 115 90 100 Z" fill="url(#tunaGradient)"/>
+  
+  <!-- Seared edges -->
+  <path d="M95 105 Q115 88 150 92 Q185 88 205 105 Q208 112 200 120 Q180 125 150 122 Q120 125 112 120 Q92 112 95 105 Z" fill="#8b0000"/>
+  
+  <!-- Raw center -->
+  <ellipse cx="150" cy="115" rx="30" ry="15" fill="#ff1493"/>
+  <ellipse cx="150" cy="112" rx="25" ry="12" fill="#ff69b4"/>
+  
+  <!-- Sesame seeds -->
+  <g fill="#f5deb3">
+    <ellipse cx="130" cy="95" rx="1.5" ry="1"/>
+    <ellipse cx="170" cy="100" rx="1.5" ry="1"/>
+    <ellipse cx="160" cy="88" rx="1" ry="0.8"/>
+    <ellipse cx="140" cy="105" rx="1" ry="0.8"/>
+    <ellipse cx="180" cy="110" rx="1.5" ry="1"/>
+  </g>
+  
+  <!-- Wasabi -->
+  <ellipse cx="220" cy="130" rx="8" ry="6" fill="#9acd32"/>
+  <ellipse cx="218" cy="128" rx="6" ry="4" fill="#adff2f"/>
+  
+  <!-- Soy sauce -->
+  <ellipse cx="80" cy="135" rx="15" ry="8" fill="#2f1b14"/>
+  <ellipse cx="82" cy="133" rx="12" ry="6" fill="#654321"/>
+</svg>

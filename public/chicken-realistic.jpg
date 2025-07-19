@@ -1,0 +1,55 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="plateGradient" cx="0.5" cy="0.3" r="0.8">
+      <stop offset="0%" style="stop-color:#ffffff"/>
+      <stop offset="80%" style="stop-color:#f8f9fa"/>
+      <stop offset="100%" style="stop-color:#e9ecef"/>
+    </radialGradient>
+    <radialGradient id="chickenMain" cx="0.3" cy="0.3" r="0.9">
+      <stop offset="0%" style="stop-color:#fff5e6"/>
+      <stop offset="30%" style="stop-color:#ffe0b3"/>
+      <stop offset="60%" style="stop-color:#ffcc80"/>
+      <stop offset="80%" style="stop-color:#ff9800"/>
+      <stop offset="100%" style="stop-color:#e65100"/>
+    </radialGradient>
+    <linearGradient id="shadow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#000000;stop-opacity:0"/>
+      <stop offset="100%" style="stop-color:#000000;stop-opacity:0.2"/>
+    </linearGradient>
+    <filter id="dropShadow">
+      <feDropShadow dx="2" dy="4" stdDeviation="3" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="#f5f5f5"/>
+  
+  <!-- Plate -->
+  <ellipse cx="200" cy="220" rx="160" ry="40" fill="url(#plateGradient)" stroke="#ddd" stroke-width="1"/>
+  
+  <!-- Main chicken breast -->
+  <path d="M120 140 Q140 120 180 125 Q220 120 260 135 Q280 150 275 180 Q270 210 240 225 Q200 235 160 230 Q130 220 120 190 Q115 165 120 140 Z" 
+        fill="url(#chickenMain)" 
+        filter="url(#dropShadow)"/>
+  
+  <!-- Grill marks -->
+  <line x1="135" y1="150" x2="250" y2="170" stroke="#8B4513" stroke-width="4" opacity="0.8"/>
+  <line x1="140" y1="170" x2="255" y2="190" stroke="#8B4513" stroke-width="4" opacity="0.8"/>
+  <line x1="145" y1="190" x2="240" y2="205" stroke="#8B4513" stroke-width="3" opacity="0.7"/>
+  
+  <!-- Juicy highlights -->
+  <ellipse cx="180" cy="160" rx="15" ry="8" fill="#ffffff" opacity="0.4"/>
+  <ellipse cx="220" cy="175" rx="12" ry="6" fill="#ffffff" opacity="0.3"/>
+  
+  <!-- Seasoning specs -->
+  <circle cx="170" cy="180" r="1" fill="#2C3E50" opacity="0.6"/>
+  <circle cx="200" cy="165" r="0.8" fill="#2C3E50" opacity="0.5"/>
+  <circle cx="230" cy="185" r="1.2" fill="#2C3E50" opacity="0.7"/>
+  
+  <!-- Garnish - fresh herbs -->
+  <g transform="translate(280, 180)">
+    <path d="M0 0 Q5 -3 8 0 Q5 3 0 0" fill="#27AE60"/>
+    <path d="M2 -1 Q6 -4 9 -1 Q6 2 2 -1" fill="#2ECC71"/>
+    <path d="M-2 1 Q2 -2 5 1 Q2 4 -2 1" fill="#27AE60"/>
+  </g>
+</svg>

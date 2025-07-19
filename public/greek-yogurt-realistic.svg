@@ -1,0 +1,87 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bowlGrad" cx="0.5" cy="0.2" r="0.8">
+      <stop offset="0%" style="stop-color:#ffffff"/>
+      <stop offset="70%" style="stop-color:#f8f9fa"/>
+      <stop offset="100%" style="stop-color:#dee2e6"/>
+    </radialGradient>
+    <radialGradient id="yogurtGrad" cx="0.4" cy="0.3" r="0.8">
+      <stop offset="0%" style="stop-color:#ffffff"/>
+      <stop offset="50%" style="stop-color:#fefefe"/>
+      <stop offset="80%" style="stop-color:#f8f9fa"/>
+      <stop offset="100%" style="stop-color:#f1f3f4"/>
+    </radialGradient>
+    <filter id="shadow">
+      <feDropShadow dx="1" dy="2" stdDeviation="2" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="#f8f9fa"/>
+  
+  <!-- Bowl -->
+  <ellipse cx="200" cy="150" rx="120" ry="80" fill="url(#bowlGrad)" stroke="#ddd" stroke-width="2" filter="url(#shadow)"/>
+  <ellipse cx="200" cy="140" rx="110" ry="70" fill="none" stroke="#eee" stroke-width="1"/>
+  
+  <!-- Greek yogurt -->
+  <ellipse cx="200" cy="150" rx="100" ry="60" fill="url(#yogurtGrad)"/>
+  
+  <!-- Creamy texture -->
+  <ellipse cx="200" cy="145" rx="95" ry="55" fill="#ffffff" opacity="0.6"/>
+  <ellipse cx="190" cy="140" rx="30" ry="20" fill="#ffffff" opacity="0.4"/>
+  <ellipse cx="220" cy="155" rx="25" ry="15" fill="#ffffff" opacity="0.3"/>
+  
+  <!-- Natural yogurt lumps/texture -->
+  <g opacity="0.8">
+    <ellipse cx="170" cy="135" rx="8" ry="5" fill="#f8f9fa"/>
+    <ellipse cx="185" cy="160" rx="6" ry="4" fill="#f8f9fa"/>
+    <ellipse cx="210" cy="140" rx="7" ry="5" fill="#f8f9fa"/>
+    <ellipse cx="225" cy="165" rx="5" ry="3" fill="#f8f9fa"/>
+    <ellipse cx="195" cy="175" rx="6" ry="4" fill="#f8f9fa"/>
+  </g>
+  
+  <!-- Swirl pattern -->
+  <path d="M160 140 Q180 130 200 140 Q220 150 240 140" 
+        stroke="#f1f3f4" stroke-width="3" fill="none" opacity="0.7"/>
+  <path d="M165 155 Q185 145 205 155 Q225 165 235 155" 
+        stroke="#f1f3f4" stroke-width="2" fill="none" opacity="0.6"/>
+  
+  <!-- Fresh berries on top -->
+  <!-- Blueberries -->
+  <circle cx="180" cy="125" r="4" fill="#3F51B5"/>
+  <circle cx="180" cy="125" r="3" fill="#5C6BC0" opacity="0.8"/>
+  <circle cx="180" cy="123" r="1" fill="#ffffff" opacity="0.6"/>
+  
+  <circle cx="195" cy="130" r="3.5" fill="#3F51B5"/>
+  <circle cx="195" cy="130" r="2.5" fill="#5C6BC0" opacity="0.8"/>
+  <circle cx="195" cy="128" r="0.8" fill="#ffffff" opacity="0.6"/>
+  
+  <circle cx="210" cy="125" r="4" fill="#3F51B5"/>
+  <circle cx="210" cy="125" r="3" fill="#5C6BC0" opacity="0.8"/>
+  <circle cx="210" cy="123" r="1" fill="#ffffff" opacity="0.6"/>
+  
+  <!-- Strawberry slice -->
+  <g transform="translate(225, 135)">
+    <path d="M0 0 Q5 -3 10 0 Q8 5 5 6 Q2 5 0 0" fill="#F44336"/>
+    <path d="M1 1 Q4 -1 8 1 Q7 4 4 5 Q2 4 1 1" fill="#FF6B6B"/>
+    <circle cx="3" cy="2" r="0.5" fill="#4CAF50"/>
+    <circle cx="6" cy="3" r="0.5" fill="#4CAF50"/>
+    <circle cx="4.5" cy="4" r="0.5" fill="#4CAF50"/>
+  </g>
+  
+  <!-- Honey drizzle -->
+  <path d="M240 100 Q230 110 235 120 Q240 130 230 140" 
+        stroke="#FFB300" stroke-width="3" fill="none" opacity="0.8"/>
+  
+  <!-- Granola pieces -->
+  <g opacity="0.9">
+    <ellipse cx="165" cy="170" rx="3" ry="2" fill="#8D6E63"/>
+    <ellipse cx="175" cy="175" rx="2.5" ry="1.8" fill="#A1887F"/>
+    <ellipse cx="220" cy="170" rx="3.2" ry="2.2" fill="#8D6E63"/>
+    <ellipse cx="230" cy="175" rx="2.8" ry="2" fill="#A1887F"/>
+  </g>
+  
+  <!-- Spoon handle visible -->
+  <rect x="280" y="80" width="8" height="60" fill="#E0E0E0" rx="4"/>
+  <ellipse cx="284" cy="85" rx="6" ry="4" fill="#BDBDBD"/>
+</svg>

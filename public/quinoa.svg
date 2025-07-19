@@ -1,0 +1,79 @@
+<svg width="300" height="200" viewBox="0 0 300 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bowlGradient" cx="50%" cy="20%" r="80%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#e2e8f0"/>
+    </radialGradient>
+  </defs>
+  
+  <rect width="300" height="200" fill="#fefdf8"/>
+  
+  <!-- Bowl shadow -->
+  <ellipse cx="150" cy="175" rx="85" ry="15" fill="#000000" opacity="0.1"/>
+  
+  <!-- Bowl exterior -->
+  <ellipse cx="150" cy="160" rx="80" ry="18" fill="#cbd5e1"/>
+  <ellipse cx="150" cy="155" rx="78" ry="16" fill="url(#bowlGradient)"/>
+  
+  <!-- Bowl interior -->
+  <ellipse cx="150" cy="150" rx="70" ry="14" fill="#f1f5f9"/>
+  
+  <!-- Quinoa pile -->
+  <ellipse cx="150" cy="135" rx="65" ry="20" fill="#d97706"/>
+  <ellipse cx="150" cy="125" rx="60" ry="15" fill="#f59e0b"/>
+  
+  <!-- Individual quinoa grains - multiple layers for depth -->
+  <g fill="#eab308">
+    <!-- Back layer -->
+    <circle cx="120" cy="135" r="1.5"/>
+    <circle cx="135" cy="140" r="1.5"/>
+    <circle cx="150" cy="137" r="1.5"/>
+    <circle cx="165" cy="142" r="1.5"/>
+    <circle cx="180" cy="138" r="1.5"/>
+    <circle cx="125" cy="145" r="1.5"/>
+    <circle cx="140" cy="150" r="1.5"/>
+    <circle cx="155" cy="147" r="1.5"/>
+    <circle cx="170" cy="152" r="1.5"/>
+  </g>
+  
+  <g fill="#f59e0b">
+    <!-- Middle layer -->
+    <circle cx="115" cy="130" r="1.2"/>
+    <circle cx="130" cy="133" r="1.2"/>
+    <circle cx="145" cy="130" r="1.2"/>
+    <circle cx="160" cy="135" r="1.2"/>
+    <circle cx="175" cy="133" r="1.2"/>
+    <circle cx="122" cy="143" r="1.2"/>
+    <circle cx="137" cy="148" r="1.2"/>
+    <circle cx="152" cy="145" r="1.2"/>
+    <circle cx="167" cy="150" r="1.2"/>
+  </g>
+  
+  <g fill="#fbbf24">
+    <!-- Front layer -->
+    <circle cx="118" cy="128" r="1"/>
+    <circle cx="133" cy="131" r="1"/>
+    <circle cx="148" cy="128" r="1"/>
+    <circle cx="163" cy="133" r="1"/>
+    <circle cx="178" cy="131" r="1"/>
+    <circle cx="125" cy="141" r="1"/>
+    <circle cx="140" cy="146" r="1"/>
+    <circle cx="155" cy="143" r="1"/>
+    <circle cx="170" cy="148" r="1"/>
+  </g>
+  
+  <!-- Quinoa "rings" - distinctive feature -->
+  <g stroke="#d97706" stroke-width="0.3" fill="none">
+    <circle cx="142" cy="132" r="2"/>
+    <circle cx="158" cy="137" r="2"/>
+    <circle cx="135" cy="145" r="2"/>
+    <circle cx="165" cy="148" r="2"/>
+  </g>
+  
+  <!-- Steam -->
+  <g stroke="#d1d5db" stroke-width="1" fill="none" opacity="0.6">
+    <path d="M130 110 Q132 105 130 100 Q128 95 130 90"/>
+    <path d="M150 110 Q152 105 150 100 Q148 95 150 90"/>
+    <path d="M170 110 Q172 105 170 100 Q168 95 170 90"/>
+  </g>
+</svg>

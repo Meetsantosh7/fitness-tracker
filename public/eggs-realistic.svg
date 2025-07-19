@@ -1,0 +1,126 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="plateGrad" cx="0.5" cy="0.3" r="0.8">
+      <stop offset="0%" style="stop-color:#ffffff"/>
+      <stop offset="80%" style="stop-color:#f8f9fa"/>
+      <stop offset="100%" style="stop-color:#e9ecef"/>
+    </radialGradient>
+    <radialGradient id="eggWhiteGrad" cx="0.3" cy="0.3" r="0.8">
+      <stop offset="0%" style="stop-color:#ffffff"/>
+      <stop offset="50%" style="stop-color:#fffef7"/>
+      <stop offset="80%" style="stop-color:#fff8e1"/>
+      <stop offset="100%" style="stop-color:#fff3c4"/>
+    </radialGradient>
+    <radialGradient id="eggYolkGrad" cx="0.3" cy="0.3" r="0.8">
+      <stop offset="0%" style="stop-color:#ffeb3b"/>
+      <stop offset="40%" style="stop-color:#ffc107"/>
+      <stop offset="70%" style="stop-color:#ff9800"/>
+      <stop offset="100%" style="stop-color:#f57c00"/>
+    </radialGradient>
+    <filter id="shadow">
+      <feDropShadow dx="2" dy="3" stdDeviation="3" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="#f5f5f5"/>
+  
+  <!-- Plate -->
+  <ellipse cx="200" cy="220" rx="160" ry="40" fill="url(#plateGrad)" stroke="#ddd" stroke-width="1"/>
+  
+  <!-- First egg -->
+  <g transform="translate(-30, 0)">
+    <!-- Egg white -->
+    <ellipse cx="180" cy="160" rx="45" ry="35" fill="url(#eggWhiteGrad)" filter="url(#shadow)"/>
+    <!-- Egg yolk -->
+    <circle cx="175" cy="155" r="18" fill="url(#eggYolkGrad)"/>
+    <!-- Yolk highlight -->
+    <circle cx="170" cy="150" r="6" fill="#ffffff" opacity="0.6"/>
+  </g>
+  
+  <!-- Second egg -->
+  <g transform="translate(30, 5)">
+    <!-- Egg white -->
+    <ellipse cx="200" cy="165" rx="42" ry="32" fill="url(#eggWhiteGrad)" filter="url(#shadow)"/>
+    <!-- Egg yolk -->
+    <circle cx="205" cy="160" r="16" fill="url(#eggYolkGrad)"/>
+    <!-- Yolk highlight -->
+    <circle cx="200" cy="155" r="5" fill="#ffffff" opacity="0.6"/>
+  </g>
+  
+  <!-- Crispy edges on egg whites -->
+  <g opacity="0.8">
+    <!-- First egg crispy edges -->
+    <path d="M135 140 Q145 135 155 140 Q165 145 170 155 Q165 160 155 155 Q145 150 135 145 Q130 142 135 140" 
+          fill="#FFE082" stroke="#FFC107" stroke-width="0.5"/>
+    <path d="M195 145 Q205 140 215 145 Q220 150 215 160 Q210 165 200 160 Q195 155 195 145" 
+          fill="#FFE082" stroke="#FFC107" stroke-width="0.5"/>
+    
+    <!-- Second egg crispy edges -->
+    <path d="M175 155 Q185 150 195 155 Q200 160 195 170 Q190 175 180 170 Q175 165 175 155" 
+          fill="#FFE082" stroke="#FFC107" stroke-width="0.5"/>
+    <path d="M235 150 Q245 145 255 150 Q260 155 255 165 Q250 170 240 165 Q235 160 235 150" 
+          fill="#FFE082" stroke="#FFC107" stroke-width="0.5"/>
+  </g>
+  
+  <!-- Texture on egg whites -->
+  <g opacity="0.6">
+    <!-- Air bubbles in whites -->
+    <circle cx="160" cy="150" r="2" fill="#ffffff"/>
+    <circle cx="170" cy="170" r="1.5" fill="#ffffff"/>
+    <circle cx="145" cy="165" r="1.8" fill="#ffffff"/>
+    <circle cx="185" cy="145" r="1.2" fill="#ffffff"/>
+    
+    <circle cx="215" cy="155" r="1.8" fill="#ffffff"/>
+    <circle cx="225" cy="175" r="1.5" fill="#ffffff"/>
+    <circle cx="195" cy="180" r="2" fill="#ffffff"/>
+    <circle cx="240" cy="165" r="1.3" fill="#ffffff"/>
+  </g>
+  
+  <!-- Small oil spots around eggs -->
+  <g opacity="0.4">
+    <circle cx="130" cy="180" r="3" fill="#FFC107"/>
+    <circle cx="270" cy="175" r="2.5" fill="#FFC107"/>
+    <circle cx="200" cy="200" r="3.5" fill="#FFC107"/>
+    <circle cx="160" cy="195" r="2" fill="#FFC107"/>
+    <circle cx="240" cy="190" r="2.8" fill="#FFC107"/>
+  </g>
+  
+  <!-- Pepper specks -->
+  <g opacity="0.7">
+    <circle cx="165" cy="160" r="0.8" fill="#424242"/>
+    <circle cx="180" cy="155" r="0.6" fill="#424242"/>
+    <circle cx="170" cy="175" r="0.7" fill="#424242"/>
+    <circle cx="190" cy="170" r="0.9" fill="#424242"/>
+    
+    <circle cx="210" cy="165" r="0.8" fill="#424242"/>
+    <circle cx="225" cy="160" r="0.6" fill="#424242"/>
+    <circle cx="200" cy="180" r="0.7" fill="#424242"/>
+    <circle cx="235" cy="175" r="0.5" fill="#424242"/>
+  </g>
+  
+  <!-- Steam rising -->
+  <g opacity="0.3" stroke="#ffffff" stroke-width="2" fill="none">
+    <path d="M175 130 Q177 120 175 115 Q173 110 175 105"/>
+    <path d="M205 135 Q207 125 205 120 Q203 115 205 110"/>
+    <path d="M160 135 Q162 125 160 120 Q158 115 160 110"/>
+    <path d="M230 140 Q232 130 230 125 Q228 120 230 115"/>
+  </g>
+  
+  <!-- Fork beside the eggs -->
+  <g transform="translate(290, 140)">
+    <rect x="0" y="0" width="2" height="40" fill="#C0C0C0"/>
+    <rect x="-1" y="-5" width="4" height="8" fill="#C0C0C0"/>
+    <line x1="-1" y1="-3" x2="3" y2="-3" stroke="#999999" stroke-width="0.5"/>
+    <line x1="-1" y1="-1" x2="3" y2="-1" stroke="#999999" stroke-width="0.5"/>
+    <line x1="-1" y1="1" x2="3" y2="1" stroke="#999999" stroke-width="0.5"/>
+  </g>
+  
+  <!-- Salt crystals -->
+  <g opacity="0.8">
+    <circle cx="155" cy="135" r="0.6" fill="#ffffff"/>
+    <circle cx="220" cy="140" r="0.8" fill="#ffffff"/>
+    <circle cx="185" cy="130" r="0.5" fill="#ffffff"/>
+    <circle cx="245" cy="145" r="0.7" fill="#ffffff"/>
+  </g>
+</svg>

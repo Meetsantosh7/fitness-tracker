@@ -1,0 +1,56 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="nutritionGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#10B981;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#059669;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="plateGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F3F4F6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E5E7EB;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="95" fill="url(#nutritionGradient)" stroke="#065F46" stroke-width="2"/>
+  
+  <!-- Plate -->
+  <ellipse cx="100" cy="100" rx="65" ry="55" fill="url(#plateGradient)" stroke="#9CA3AF" stroke-width="2"/>
+  
+  <!-- Food sections on plate -->
+  <!-- Vegetables (green) -->
+  <path d="M 45 85 Q 65 65 85 85 Q 75 95 55 95 Z" fill="#22C55E" stroke="#16A34A" stroke-width="1"/>
+  
+  <!-- Protein (red/meat) -->
+  <path d="M 115 75 Q 135 70 145 85 Q 140 100 120 95 Z" fill="#EF4444" stroke="#DC2626" stroke-width="1"/>
+  
+  <!-- Carbs (yellow/grain) -->
+  <path d="M 70 110 Q 90 105 110 115 Q 95 125 75 120 Z" fill="#F59E0B" stroke="#D97706" stroke-width="1"/>
+  
+  <!-- Fruits (orange) -->
+  <circle cx="125" cy="115" r="12" fill="#FB923C" stroke="#EA580C" stroke-width="1"/>
+  
+  <!-- Fork and knife -->
+  <g transform="translate(35, 50)">
+    <!-- Fork -->
+    <rect x="0" y="0" width="2" height="25" fill="#6B7280"/>
+    <rect x="-2" y="0" width="1" height="8" fill="#6B7280"/>
+    <rect x="0" y="0" width="1" height="8" fill="#6B7280"/>
+    <rect x="2" y="0" width="1" height="8" fill="#6B7280"/>
+    <rect x="4" y="0" width="1" height="8" fill="#6B7280"/>
+  </g>
+  
+  <g transform="translate(160, 50)">
+    <!-- Knife -->
+    <rect x="0" y="0" width="2" height="25" fill="#6B7280"/>
+    <path d="M -2 0 L 4 0 L 2 8 L 0 8 Z" fill="#9CA3AF"/>
+  </g>
+  
+  <!-- Nutrition label icon -->
+  <rect x="75" y="140" width="50" height="35" fill="white" stroke="#6B7280" stroke-width="1" rx="3"/>
+  <rect x="80" y="145" width="40" height="2" fill="#374151"/>
+  <rect x="80" y="150" width="25" height="1" fill="#6B7280"/>
+  <rect x="80" y="154" width="30" height="1" fill="#6B7280"/>
+  <rect x="80" y="158" width="20" height="1" fill="#6B7280"/>
+  <rect x="80" y="162" width="35" height="1" fill="#6B7280"/>
+  <rect x="80" y="166" width="25" height="1" fill="#6B7280"/>
+</svg>

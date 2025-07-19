@@ -1,0 +1,28 @@
+<svg width="300" height="200" viewBox="0 0 300 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="300" height="200" fill="#fef3e2"/>
+  
+  <!-- Sweet potato shape -->
+  <ellipse cx="150" cy="100" rx="90" ry="35" fill="#ea580c"/>
+  <ellipse cx="150" cy="95" rx="85" ry="30" fill="#f97316"/>
+  
+  <!-- Sweet potato texture -->
+  <ellipse cx="120" cy="90" rx="15" ry="5" fill="#fb923c" opacity="0.7"/>
+  <ellipse cx="180" cy="95" rx="12" ry="4" fill="#fb923c" opacity="0.7"/>
+  <ellipse cx="150" cy="105" rx="20" ry="6" fill="#fb923c" opacity="0.7"/>
+  
+  <!-- Skin texture lines -->
+  <path d="M80 85 Q150 80 220 85" stroke="#dc2626" stroke-width="1" fill="none" opacity="0.5"/>
+  <path d="M85 95 Q150 90 215 95" stroke="#dc2626" stroke-width="1" fill="none" opacity="0.5"/>
+  <path d="M85 105 Q150 100 215 105" stroke="#dc2626" stroke-width="1" fill="none" opacity="0.5"/>
+  <path d="M90 115 Q150 110 210 115" stroke="#dc2626" stroke-width="1" fill="none" opacity="0.5"/>
+  
+  <!-- Small spots -->
+  <circle cx="110" cy="100" r="2" fill="#dc2626" opacity="0.6"/>
+  <circle cx="190" cy="105" r="1.5" fill="#dc2626" opacity="0.6"/>
+  <circle cx="130" cy="115" r="1" fill="#dc2626" opacity="0.6"/>
+  <circle cx="170" cy="85" r="1" fill="#dc2626" opacity="0.6"/>
+  
+  <!-- Label -->
+  <rect x="20" y="160" width="100" height="25" fill="rgba(255,255,255,0.9)" rx="5"/>
+  <text x="70" y="177" text-anchor="middle" fill="#333" font-family="Arial" font-size="14" font-weight="bold">Sweet Potato</text>
+</svg>

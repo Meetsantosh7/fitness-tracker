@@ -1,0 +1,170 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bowlGrad" cx="0.5" cy="0.2" r="0.8">
+      <stop offset="0%" style="stop-color:#ffffff"/>
+      <stop offset="70%" style="stop-color:#f8f9fa"/>
+      <stop offset="100%" style="stop-color:#dee2e6"/>
+    </radialGradient>
+    <radialGradient id="strawberryGrad" cx="0.3" cy="0.2" r="0.8">
+      <stop offset="0%" style="stop-color:#FF5722"/>
+      <stop offset="40%" style="stop-color:#F44336"/>
+      <stop offset="70%" style="stop-color:#D32F2F"/>
+      <stop offset="100%" style="stop-color:#B71C1C"/>
+    </radialGradient>
+    <filter id="shadow">
+      <feDropShadow dx="1" dy="2" stdDeviation="2" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="#f8f9fa"/>
+  
+  <!-- Bowl -->
+  <ellipse cx="200" cy="190" rx="120" ry="70" fill="url(#bowlGrad)" stroke="#ddd" stroke-width="2" filter="url(#shadow)"/>
+  <ellipse cx="200" cy="185" rx="110" ry="65" fill="none" stroke="#eee" stroke-width="1"/>
+  
+  <!-- Strawberries in bowl -->
+  <!-- Front row -->
+  <g transform="translate(150, 210)">
+    <path d="M0 0 Q5 -12 10 -10 Q15 -8 18 0 Q15 8 10 10 Q5 8 0 0" fill="url(#strawberryGrad)"/>
+    <g fill="#4CAF50">
+      <path d="M2 -8 L4 -12 L6 -8 L8 -12 L10 -8 L12 -12 L14 -8 L16 -12 L18 -8"/>
+      <ellipse cx="9" cy="-10" rx="8" ry="2"/>
+    </g>
+    <!-- Seeds -->
+    <g fill="#FFEB3B" opacity="0.8">
+      <circle cx="5" cy="-2" r="0.8"/>
+      <circle cx="9" cy="2" r="0.7"/>
+      <circle cx="13" cy="-1" r="0.8"/>
+      <circle cx="7" cy="5" r="0.6"/>
+      <circle cx="11" cy="6" r="0.7"/>
+    </g>
+  </g>
+  
+  <g transform="translate(200, 215)">
+    <path d="M0 0 Q6 -14 12 -12 Q18 -10 20 0 Q17 9 12 11 Q6 9 0 0" fill="url(#strawberryGrad)"/>
+    <g fill="#4CAF50">
+      <path d="M2 -9 L5 -13 L8 -9 L11 -13 L14 -9 L17 -13 L20 -9"/>
+      <ellipse cx="10" cy="-11" rx="9" ry="2"/>
+    </g>
+    <g fill="#FFEB3B" opacity="0.8">
+      <circle cx="6" cy="-3" r="0.8"/>
+      <circle cx="10" cy="1" r="0.7"/>
+      <circle cx="14" cy="-2" r="0.8"/>
+      <circle cx="8" cy="4" r="0.6"/>
+      <circle cx="12" cy="6" r="0.7"/>
+      <circle cx="16" cy="3" r="0.6"/>
+    </g>
+  </g>
+  
+  <g transform="translate(250, 210)">
+    <path d="M0 0 Q5 -11 10 -9 Q15 -7 17 0 Q14 7 10 9 Q5 7 0 0" fill="url(#strawberryGrad)"/>
+    <g fill="#4CAF50">
+      <path d="M2 -7 L4 -11 L6 -7 L8 -11 L10 -7 L12 -11 L14 -7 L16 -11 L17 -7"/>
+      <ellipse cx="8.5" cy="-9" rx="7.5" ry="2"/>
+    </g>
+    <g fill="#FFEB3B" opacity="0.8">
+      <circle cx="4" cy="-1" r="0.7"/>
+      <circle cx="8" cy="2" r="0.8"/>
+      <circle cx="12" cy="-1" r="0.7"/>
+      <circle cx="6" cy="5" r="0.6"/>
+      <circle cx="10" cy="6" r="0.7"/>
+    </g>
+  </g>
+  
+  <!-- Second row -->
+  <g transform="translate(175, 195)">
+    <path d="M0 0 Q4 -10 8 -8 Q12 -6 14 0 Q11 6 8 8 Q4 6 0 0" fill="url(#strawberryGrad)"/>
+    <g fill="#4CAF50">
+      <path d="M1 -6 L3 -10 L5 -6 L7 -10 L9 -6 L11 -10 L13 -6"/>
+      <ellipse cx="7" cy="-8" rx="6" ry="1.5"/>
+    </g>
+    <g fill="#FFEB3B" opacity="0.8">
+      <circle cx="3" cy="-1" r="0.6"/>
+      <circle cx="7" cy="1" r="0.7"/>
+      <circle cx="10" cy="-1" r="0.6"/>
+      <circle cx="5" cy="4" r="0.5"/>
+      <circle cx="8" cy="5" r="0.6"/>
+    </g>
+  </g>
+  
+  <g transform="translate(225, 195)">
+    <path d="M0 0 Q5 -11 10 -9 Q15 -7 17 0 Q14 7 10 9 Q5 7 0 0" fill="url(#strawberryGrad)"/>
+    <g fill="#4CAF50">
+      <path d="M2 -7 L4 -11 L6 -7 L8 -11 L10 -7 L12 -11 L14 -7 L16 -11 L17 -7"/>
+      <ellipse cx="8.5" cy="-9" rx="7.5" ry="2"/>
+    </g>
+    <g fill="#FFEB3B" opacity="0.8">
+      <circle cx="4" cy="-1" r="0.7"/>
+      <circle cx="8" cy="2" r="0.8"/>
+      <circle cx="12" cy="-1" r="0.7"/>
+      <circle cx="6" cy="5" r="0.6"/>
+      <circle cx="10" cy="6" r="0.7"/>
+    </g>
+  </g>
+  
+  <!-- Third row (back) -->
+  <g transform="translate(190, 175)">
+    <path d="M0 0 Q5 -12 10 -10 Q15 -8 18 0 Q15 8 10 10 Q5 8 0 0" fill="url(#strawberryGrad)"/>
+    <g fill="#4CAF50">
+      <path d="M2 -8 L4 -12 L6 -8 L8 -12 L10 -8 L12 -12 L14 -8 L16 -12 L18 -8"/>
+      <ellipse cx="9" cy="-10" rx="8" ry="2"/>
+    </g>
+    <g fill="#FFEB3B" opacity="0.8">
+      <circle cx="5" cy="-2" r="0.8"/>
+      <circle cx="9" cy="2" r="0.7"/>
+      <circle cx="13" cy="-1" r="0.8"/>
+      <circle cx="7" cy="5" r="0.6"/>
+      <circle cx="11" cy="6" r="0.7"/>
+    </g>
+  </g>
+  
+  <g transform="translate(210, 180)">
+    <path d="M0 0 Q4 -9 8 -7 Q12 -5 14 0 Q11 6 8 8 Q4 6 0 0" fill="url(#strawberryGrad)"/>
+    <g fill="#4CAF50">
+      <path d="M1 -5 L3 -9 L5 -5 L7 -9 L9 -5 L11 -9 L13 -5"/>
+      <ellipse cx="7" cy="-7" rx="6" ry="1.5"/>
+    </g>
+    <g fill="#FFEB3B" opacity="0.8">
+      <circle cx="3" cy="-1" r="0.6"/>
+      <circle cx="7" cy="1" r="0.7"/>
+      <circle cx="10" cy="-1" r="0.6"/>
+      <circle cx="5" cy="4" r="0.5"/>
+      <circle cx="8" cy="5" r="0.6"/>
+    </g>
+  </g>
+  
+  <!-- Bowl rim highlight -->
+  <ellipse cx="200" cy="185" rx="110" ry="65" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.4"/>
+  
+  <!-- A few strawberries outside bowl -->
+  <g transform="translate(120, 230)">
+    <path d="M0 0 Q4 -10 8 -8 Q12 -6 14 0 Q11 6 8 8 Q4 6 0 0" fill="url(#strawberryGrad)"/>
+    <g fill="#4CAF50">
+      <path d="M1 -6 L3 -10 L5 -6 L7 -10 L9 -6 L11 -10 L13 -6"/>
+      <ellipse cx="7" cy="-8" rx="6" ry="1.5"/>
+    </g>
+    <g fill="#FFEB3B" opacity="0.8">
+      <circle cx="3" cy="-1" r="0.6"/>
+      <circle cx="7" cy="1" r="0.7"/>
+      <circle cx="10" cy="-1" r="0.6"/>
+      <circle cx="5" cy="4" r="0.5"/>
+      <circle cx="8" cy="5" r="0.6"/>
+    </g>
+  </g>
+  
+  <g transform="translate(280, 235)">
+    <path d="M0 0 Q5 -11 10 -9 Q15 -7 17 0 Q14 7 10 9 Q5 7 0 0" fill="url(#strawberryGrad)"/>
+    <g fill="#4CAF50">
+      <path d="M2 -7 L4 -11 L6 -7 L8 -11 L10 -7 L12 -11 L14 -7 L16 -11 L17 -7"/>
+      <ellipse cx="8.5" cy="-9" rx="7.5" ry="2"/>
+    </g>
+    <g fill="#FFEB3B" opacity="0.8">
+      <circle cx="4" cy="-1" r="0.7"/>
+      <circle cx="8" cy="2" r="0.8"/>
+      <circle cx="12" cy="-1" r="0.7"/>
+      <circle cx="6" cy="5" r="0.6"/>
+      <circle cx="10" cy="6" r="0.7"/>
+    </g>
+  </g>
+</svg>

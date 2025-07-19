@@ -1,0 +1,33 @@
+<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="nutritionSimple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#10B981;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#059669;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="60" cy="60" r="55" fill="url(#nutritionSimple)"/>
+  
+  <!-- Plate -->
+  <circle cx="60" cy="60" r="35" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="2"/>
+  
+  <!-- Food sections -->
+  <!-- Vegetables -->
+  <path d="M 60 60 L 60 25 A 35 35 0 0 1 95 60 Z" fill="#22C55E" opacity="0.8"/>
+  <!-- Protein -->
+  <path d="M 60 60 L 95 60 A 35 35 0 0 1 60 95 Z" fill="#EF4444" opacity="0.8"/>
+  <!-- Carbs -->
+  <path d="M 60 60 L 60 95 A 35 35 0 0 1 25 60 Z" fill="#F59E0B" opacity="0.8"/>
+  
+  <!-- Center dot -->
+  <circle cx="60" cy="60" r="3" fill="#374151"/>
+  
+  <!-- Simple food icons -->
+  <!-- Apple -->
+  <circle cx="75" cy="42" r="6" fill="#EF4444"/>
+  <!-- Broccoli -->
+  <circle cx="45" cy="42" r="5" fill="#16A34A"/>
+  <!-- Grain -->
+  <circle cx="45" cy="78" r="4" fill="#D97706"/>
+</svg>

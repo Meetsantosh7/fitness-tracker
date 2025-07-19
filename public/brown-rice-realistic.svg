@@ -1,0 +1,103 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bowlGrad" cx="0.5" cy="0.2" r="0.8">
+      <stop offset="0%" style="stop-color:#ffffff"/>
+      <stop offset="70%" style="stop-color:#f8f9fa"/>
+      <stop offset="100%" style="stop-color:#dee2e6"/>
+    </radialGradient>
+    <radialGradient id="riceGrad" cx="0.4" cy="0.3" r="0.8">
+      <stop offset="0%" style="stop-color:#F3E5AB"/>
+      <stop offset="40%" style="stop-color:#E6D8A3"/>
+      <stop offset="70%" style="stop-color:#D4C59A"/>
+      <stop offset="100%" style="stop-color:#C7B299"/>
+    </radialGradient>
+    <filter id="shadow">
+      <feDropShadow dx="1" dy="2" stdDeviation="2" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="#f8f9fa"/>
+  
+  <!-- Bowl -->
+  <ellipse cx="200" cy="160" rx="120" ry="80" fill="url(#bowlGrad)" stroke="#ddd" stroke-width="2" filter="url(#shadow)"/>
+  <ellipse cx="200" cy="150" rx="110" ry="70" fill="none" stroke="#eee" stroke-width="1"/>
+  
+  <!-- Brown rice base -->
+  <ellipse cx="200" cy="160" rx="100" ry="60" fill="url(#riceGrad)"/>
+  
+  <!-- Individual rice grains (scattered pattern) -->
+  <g opacity="0.9">
+    <!-- Layer 1 (top surface) -->
+    <ellipse cx="150" cy="140" rx="2" ry="0.8" fill="#E6D8A3" transform="rotate(15 150 140)"/>
+    <ellipse cx="155" cy="145" rx="1.8" ry="0.7" fill="#D4C59A" transform="rotate(-10 155 145)"/>
+    <ellipse cx="160" cy="142" rx="2.2" ry="0.9" fill="#E6D8A3" transform="rotate(25 160 142)"/>
+    <ellipse cx="165" cy="150" rx="1.9" ry="0.8" fill="#D4C59A" transform="rotate(-5 165 150)"/>
+    <ellipse cx="170" cy="135" rx="2" ry="0.8" fill="#E6D8A3" transform="rotate(35 170 135)"/>
+    <ellipse cx="175" cy="148" rx="1.8" ry="0.7" fill="#D4C59A" transform="rotate(-15 175 148)"/>
+    <ellipse cx="180" cy="138" rx="2.1" ry="0.9" fill="#E6D8A3" transform="rotate(20 180 138)"/>
+    <ellipse cx="185" cy="152" rx="1.9" ry="0.8" fill="#D4C59A" transform="rotate(-25 185 152)"/>
+    <ellipse cx="190" cy="140" rx="2" ry="0.8" fill="#E6D8A3" transform="rotate(30 190 140)"/>
+    <ellipse cx="195" cy="155" rx="1.8" ry="0.7" fill="#D4C59A" transform="rotate(-8 195 155)"/>
+    <ellipse cx="200" cy="145" rx="2.2" ry="0.9" fill="#E6D8A3" transform="rotate(18 200 145)"/>
+    <ellipse cx="205" cy="158" rx="1.9" ry="0.8" fill="#D4C59A" transform="rotate(-12 205 158)"/>
+    <ellipse cx="210" cy="142" rx="2" ry="0.8" fill="#E6D8A3" transform="rotate(28 210 142)"/>
+    <ellipse cx="215" cy="150" rx="1.8" ry="0.7" fill="#D4C59A" transform="rotate(-18 215 150)"/>
+    <ellipse cx="220" cy="148" rx="2.1" ry="0.9" fill="#E6D8A3" transform="rotate(22 220 148)"/>
+    <ellipse cx="225" cy="155" rx="1.9" ry="0.8" fill="#D4C59A" transform="rotate(-7 225 155)"/>
+    <ellipse cx="230" cy="145" rx="2" ry="0.8" fill="#E6D8A3" transform="rotate(32 230 145)"/>
+    <ellipse cx="235" cy="152" rx="1.8" ry="0.7" fill="#D4C59A" transform="rotate(-14 235 152)"/>
+    <ellipse cx="240" cy="142" rx="2.2" ry="0.9" fill="#E6D8A3" transform="rotate(16 240 142)"/>
+    <ellipse cx="245" cy="148" rx="1.9" ry="0.8" fill="#D4C59A" transform="rotate(-22 245 148)"/>
+    <ellipse cx="250" cy="145" rx="2" ry="0.8" fill="#E6D8A3" transform="rotate(26 250 145)"/>
+    
+    <!-- Layer 2 (middle) -->
+    <ellipse cx="158" cy="165" rx="1.8" ry="0.7" fill="#C7B299" transform="rotate(12 158 165)"/>
+    <ellipse cx="168" cy="170" rx="2" ry="0.8" fill="#D4C59A" transform="rotate(-20 168 170)"/>
+    <ellipse cx="178" cy="162" rx="1.9" ry="0.8" fill="#C7B299" transform="rotate(24 178 162)"/>
+    <ellipse cx="188" cy="175" rx="2.1" ry="0.9" fill="#D4C59A" transform="rotate(-6 188 175)"/>
+    <ellipse cx="198" cy="168" rx="1.8" ry="0.7" fill="#C7B299" transform="rotate(34 198 168)"/>
+    <ellipse cx="208" cy="172" rx="2" ry="0.8" fill="#D4C59A" transform="rotate(-16 208 172)"/>
+    <ellipse cx="218" cy="165" rx="1.9" ry="0.8" fill="#C7B299" transform="rotate(19 218 165)"/>
+    <ellipse cx="228" cy="170" rx="2.2" ry="0.9" fill="#D4C59A" transform="rotate(-11 228 170)"/>
+    <ellipse cx="238" cy="168" rx="1.8" ry="0.7" fill="#C7B299" transform="rotate(29 238 168)"/>
+    
+    <!-- Layer 3 (deeper) -->
+    <ellipse cx="165" cy="185" rx="1.9" ry="0.8" fill="#C7B299" transform="rotate(-17 165 185)"/>
+    <ellipse cx="175" cy="190" rx="2" ry="0.8" fill="#B8A082" transform="rotate(21 175 190)"/>
+    <ellipse cx="185" cy="182" rx="1.8" ry="0.7" fill="#C7B299" transform="rotate(-9 185 182)"/>
+    <ellipse cx="195" cy="195" rx="2.1" ry="0.9" fill="#B8A082" transform="rotate(27 195 195)"/>
+    <ellipse cx="205" cy="188" rx="1.9" ry="0.8" fill="#C7B299" transform="rotate(-13 205 188)"/>
+    <ellipse cx="215" cy="192" rx="2" ry="0.8" fill="#B8A082" transform="rotate(23 215 192)"/>
+    <ellipse cx="225" cy="185" rx="1.8" ry="0.7" fill="#C7B299" transform="rotate(-19 225 185)"/>
+    <ellipse cx="235" cy="190" rx="2.2" ry="0.9" fill="#B8A082" transform="rotate(31 235 190)"/>
+  </g>
+  
+  <!-- Steam effect -->
+  <g opacity="0.4" stroke="#ffffff" stroke-width="2" fill="none">
+    <path d="M170 120 Q172 110 170 105 Q168 100 170 95"/>
+    <path d="M200 115 Q202 105 200 100 Q198 95 200 90"/>
+    <path d="M230 120 Q232 110 230 105 Q228 100 230 95"/>
+  </g>
+  
+  <!-- Bowl rim highlight -->
+  <ellipse cx="200" cy="150" rx="110" ry="70" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.4"/>
+  
+  <!-- Chopsticks -->
+  <g transform="translate(300, 100)">
+    <rect x="0" y="0" width="3" height="80" fill="#D7CCC8" rx="1.5"/>
+    <rect x="5" y="0" width="3" height="80" fill="#D7CCC8" rx="1.5"/>
+    <rect x="0" y="0" width="3" height="5" fill="#8D6E63" rx="1.5"/>
+    <rect x="5" y="0" width="3" height="5" fill="#8D6E63" rx="1.5"/>
+  </g>
+  
+  <!-- Texture variation on rice surface -->
+  <ellipse cx="200" cy="155" rx="90" ry="50" fill="none" stroke="#D4C59A" stroke-width="0.5" opacity="0.6"/>
+  <ellipse cx="200" cy="160" rx="95" ry="55" fill="none" stroke="#C7B299" stroke-width="0.5" opacity="0.4"/>
+  
+  <!-- Small garnish - green onion -->
+  <g transform="translate(180, 130)">
+    <ellipse cx="0" cy="0" rx="8" ry="2" fill="#4CAF50" opacity="0.8"/>
+    <ellipse cx="2" cy="-0.5" rx="6" ry="1.5" fill="#66BB6A" opacity="0.7"/>
+  </g>
+</svg>

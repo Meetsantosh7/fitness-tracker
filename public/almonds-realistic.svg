@@ -1,0 +1,95 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bowlGrad" cx="0.5" cy="0.2" r="0.8">
+      <stop offset="0%" style="stop-color:#ffffff"/>
+      <stop offset="70%" style="stop-color:#f8f9fa"/>
+      <stop offset="100%" style="stop-color:#dee2e6"/>
+    </radialGradient>
+    <radialGradient id="almondGrad" cx="0.3" cy="0.2" r="0.8">
+      <stop offset="0%" style="stop-color:#F3E5AB"/>
+      <stop offset="40%" style="stop-color:#DDD6A3"/>
+      <stop offset="70%" style="stop-color:#C7B299"/>
+      <stop offset="100%" style="stop-color:#8D6E63"/>
+    </radialGradient>
+    <filter id="shadow">
+      <feDropShadow dx="1" dy="2" stdDeviation="2" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="#f8f9fa"/>
+  
+  <!-- Bowl -->
+  <ellipse cx="200" cy="200" rx="120" ry="60" fill="url(#bowlGrad)" stroke="#ddd" stroke-width="2" filter="url(#shadow)"/>
+  <ellipse cx="200" cy="195" rx="110" ry="55" fill="none" stroke="#eee" stroke-width="1"/>
+  
+  <!-- Individual almonds -->
+  <!-- Row 1 (top layer) -->
+  <ellipse cx="150" cy="170" rx="8" ry="4" fill="url(#almondGrad)" transform="rotate(15 150 170)"/>
+  <ellipse cx="170" cy="165" rx="9" ry="4.5" fill="url(#almondGrad)" transform="rotate(-10 170 165)"/>
+  <ellipse cx="190" cy="160" rx="8.5" ry="4" fill="url(#almondGrad)" transform="rotate(25 190 160)"/>
+  <ellipse cx="210" cy="165" rx="9" ry="4.5" fill="url(#almondGrad)" transform="rotate(-5 210 165)"/>
+  <ellipse cx="230" cy="170" rx="8" ry="4" fill="url(#almondGrad)" transform="rotate(20 230 170)"/>
+  <ellipse cx="250" cy="175" rx="8.5" ry="4" fill="url(#almondGrad)" transform="rotate(-15 250 175)"/>
+  
+  <!-- Row 2 -->
+  <ellipse cx="160" cy="185" rx="8.5" ry="4.5" fill="url(#almondGrad)" transform="rotate(-20 160 185)"/>
+  <ellipse cx="180" cy="180" rx="8" ry="4" fill="url(#almondGrad)" transform="rotate(10 180 180)"/>
+  <ellipse cx="200" cy="185" rx="9" ry="4.5" fill="url(#almondGrad)" transform="rotate(-15 200 185)"/>
+  <ellipse cx="220" cy="180" rx="8.5" ry="4" fill="url(#almondGrad)" transform="rotate(30 220 180)"/>
+  <ellipse cx="240" cy="185" rx="8" ry="4" fill="url(#almondGrad)" transform="rotate(-5 240 185)"/>
+  
+  <!-- Row 3 -->
+  <ellipse cx="170" cy="200" rx="8" ry="4" fill="url(#almondGrad)" transform="rotate(5 170 200)"/>
+  <ellipse cx="190" cy="195" rx="8.5" ry="4.5" fill="url(#almondGrad)" transform="rotate(-25 190 195)"/>
+  <ellipse cx="210" cy="200" rx="9" ry="4" fill="url(#almondGrad)" transform="rotate(15 210 200)"/>
+  <ellipse cx="230" cy="195" rx="8" ry="4" fill="url(#almondGrad)" transform="rotate(-10 230 195)"/>
+  
+  <!-- Row 4 (bottom layer) -->
+  <ellipse cx="180" cy="215" rx="8.5" ry="4" fill="url(#almondGrad)" transform="rotate(20 180 215)"/>
+  <ellipse cx="200" cy="210" rx="8" ry="4.5" fill="url(#almondGrad)" transform="rotate(-15 200 210)"/>
+  <ellipse cx="220" cy="215" rx="8.5" ry="4" fill="url(#almondGrad)" transform="rotate(10 220 215)"/>
+  
+  <!-- Almond skin texture and details -->
+  <g opacity="0.7">
+    <!-- Skin texture lines on visible almonds -->
+    <line x1="148" y1="168" x2="152" y2="172" stroke="#8D6E63" stroke-width="0.5"/>
+    <line x1="168" y1="163" x2="172" y2="167" stroke="#8D6E63" stroke-width="0.5"/>
+    <line x1="188" y1="158" x2="192" y2="162" stroke="#8D6E63" stroke-width="0.5"/>
+    <line x1="208" y1="163" x2="212" y2="167" stroke="#8D6E63" stroke-width="0.5"/>
+    <line x1="228" y1="168" x2="232" y2="172" stroke="#8D6E63" stroke-width="0.5"/>
+    <line x1="248" y1="173" x2="252" y2="177" stroke="#8D6E63" stroke-width="0.5"/>
+    
+    <!-- More texture lines -->
+    <line x1="158" y1="183" x2="162" y2="187" stroke="#8D6E63" stroke-width="0.5"/>
+    <line x1="178" y1="178" x2="182" y2="182" stroke="#8D6E63" stroke-width="0.5"/>
+    <line x1="198" y1="183" x2="202" y2="187" stroke="#8D6E63" stroke-width="0.5"/>
+    <line x1="218" y1="178" x2="222" y2="182" stroke="#8D6E63" stroke-width="0.5"/>
+    <line x1="238" y1="183" x2="242" y2="187" stroke="#8D6E63" stroke-width="0.5"/>
+  </g>
+  
+  <!-- Highlights on almonds -->
+  <g opacity="0.6">
+    <ellipse cx="152" cy="168" rx="3" ry="1.5" fill="#ffffff" transform="rotate(15 152 168)"/>
+    <ellipse cx="172" cy="163" rx="3.5" ry="1.8" fill="#ffffff" transform="rotate(-10 172 163)"/>
+    <ellipse cx="192" cy="158" rx="3" ry="1.5" fill="#ffffff" transform="rotate(25 192 158)"/>
+    <ellipse cx="212" cy="163" rx="3.5" ry="1.8" fill="#ffffff" transform="rotate(-5 212 163)"/>
+    <ellipse cx="232" cy="168" rx="3" ry="1.5" fill="#ffffff" transform="rotate(20 232 168)"/>
+  </g>
+  
+  <!-- A few sliced almonds -->
+  <g transform="translate(140, 190)">
+    <ellipse cx="0" cy="0" rx="6" ry="2" fill="#F5F5DC"/>
+    <ellipse cx="1" cy="-0.5" rx="4" ry="1.5" fill="#ffffff" opacity="0.8"/>
+    <line x1="-4" y1="0" x2="4" y2="0" stroke="#DDD6A3" stroke-width="0.5"/>
+  </g>
+  
+  <g transform="translate(260, 190)">
+    <ellipse cx="0" cy="0" rx="5.5" ry="2" fill="#F5F5DC"/>
+    <ellipse cx="0.5" cy="-0.5" rx="3.5" ry="1.5" fill="#ffffff" opacity="0.8"/>
+    <line x1="-3" y1="0" x2="3" y2="0" stroke="#DDD6A3" stroke-width="0.5"/>
+  </g>
+  
+  <!-- Bowl rim highlight -->
+  <ellipse cx="200" cy="195" rx="110" ry="55" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.4"/>
+</svg>

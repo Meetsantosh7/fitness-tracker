@@ -1,0 +1,106 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="plateGrad" cx="0.5" cy="0.3" r="0.8">
+      <stop offset="0%" style="stop-color:#ffffff"/>
+      <stop offset="80%" style="stop-color:#f8f9fa"/>
+      <stop offset="100%" style="stop-color:#e9ecef"/>
+    </radialGradient>
+    <radialGradient id="bananaGrad" cx="0.3" cy="0.2" r="0.8">
+      <stop offset="0%" style="stop-color:#FFF59D"/>
+      <stop offset="40%" style="stop-color:#FFEB3B"/>
+      <stop offset="70%" style="stop-color:#FFC107"/>
+      <stop offset="100%" style="stop-color:#FF8F00"/>
+    </radialGradient>
+    <filter id="shadow">
+      <feDropShadow dx="2" dy="3" stdDeviation="3" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="#f5f5f5"/>
+  
+  <!-- Plate -->
+  <ellipse cx="200" cy="220" rx="160" ry="40" fill="url(#plateGrad)" stroke="#ddd" stroke-width="1"/>
+  
+  <!-- Banana bunch -->
+  <!-- Banana 1 -->
+  <path d="M120 180 Q130 120 140 110 Q150 100 165 105 Q180 110 185 130 Q190 150 185 170 Q180 190 165 195 Q150 200 140 190 Q130 180 120 180" 
+        fill="url(#bananaGrad)" filter="url(#shadow)"/>
+  
+  <!-- Banana 2 -->
+  <path d="M160 185 Q170 125 180 115 Q190 105 205 110 Q220 115 225 135 Q230 155 225 175 Q220 195 205 200 Q190 205 180 195 Q170 185 160 185" 
+        fill="url(#bananaGrad)" filter="url(#shadow)"/>
+  
+  <!-- Banana 3 -->
+  <path d="M200 190 Q210 130 220 120 Q230 110 245 115 Q260 120 265 140 Q270 160 265 180 Q260 200 245 205 Q230 210 220 200 Q210 190 200 190" 
+        fill="url(#bananaGrad)" filter="url(#shadow)"/>
+  
+  <!-- Banana ridges/lines -->
+  <g stroke="#FF8F00" stroke-width="2" fill="none" opacity="0.7">
+    <!-- Banana 1 ridges -->
+    <path d="M140 115 Q150 110 165 115 Q175 120 180 140 Q185 160 180 180 Q175 190 165 190 Q155 185 145 180"/>
+    <path d="M145 120 Q155 115 170 120 Q180 125 185 145 Q190 165 185 185 Q180 195 170 195 Q160 190 150 185"/>
+    
+    <!-- Banana 2 ridges -->
+    <path d="M180 120 Q190 115 205 120 Q215 125 220 145 Q225 165 220 185 Q215 195 205 195 Q195 190 185 185"/>
+    <path d="M185 125 Q195 120 210 125 Q220 130 225 150 Q230 170 225 190 Q220 200 210 200 Q200 195 190 190"/>
+    
+    <!-- Banana 3 ridges -->
+    <path d="M220 125 Q230 120 245 125 Q255 130 260 150 Q265 170 260 190 Q255 200 245 200 Q235 195 225 190"/>
+    <path d="M225 130 Q235 125 250 130 Q260 135 265 155 Q270 175 265 195 Q260 205 250 205 Q240 200 230 195"/>
+  </g>
+  
+  <!-- Brown spots (ripeness) -->
+  <g fill="#8D6E63" opacity="0.6">
+    <!-- Banana 1 spots -->
+    <ellipse cx="155" cy="140" rx="3" ry="2"/>
+    <ellipse cx="170" cy="160" rx="2.5" ry="1.8"/>
+    <ellipse cx="160" cy="175" rx="2" ry="1.5"/>
+    
+    <!-- Banana 2 spots -->
+    <ellipse cx="195" cy="145" rx="2.8" ry="2"/>
+    <ellipse cx="210" cy="165" rx="2.2" ry="1.6"/>
+    <ellipse cx="200" cy="180" rx="2.5" ry="1.8"/>
+    
+    <!-- Banana 3 spots -->
+    <ellipse cx="235" cy="150" rx="3" ry="2.2"/>
+    <ellipse cx="250" cy="170" rx="2.3" ry="1.7"/>
+    <ellipse cx="240" cy="185" rx="2.7" ry="1.9"/>
+  </g>
+  
+  <!-- Highlights -->
+  <g fill="#FFFDE7" opacity="0.8">
+    <!-- Banana 1 highlight -->
+    <ellipse cx="150" cy="130" rx="8" ry="15"/>
+    
+    <!-- Banana 2 highlight -->
+    <ellipse cx="190" cy="135" rx="8" ry="15"/>
+    
+    <!-- Banana 3 highlight -->
+    <ellipse cx="230" cy="140" rx="8" ry="15"/>
+  </g>
+  
+  <!-- Stems/tips -->
+  <g fill="#795548">
+    <!-- Top stems -->
+    <ellipse cx="155" cy="105" rx="3" ry="8"/>
+    <ellipse cx="195" cy="110" rx="3" ry="8"/>
+    <ellipse cx="235" cy="115" rx="3" ry="8"/>
+    
+    <!-- Bottom tips -->
+    <ellipse cx="175" cy="195" rx="2" ry="4"/>
+    <ellipse cx="215" cy="200" rx="2" ry="4"/>
+    <ellipse cx="255" cy="205" rx="2" ry="4"/>
+  </g>
+  
+  <!-- Common stem connecting bananas -->
+  <path d="M150 100 Q175 95 200 105 Q225 110 240 115" 
+        stroke="#795548" stroke-width="6" fill="none"/>
+  
+  <!-- Small leaf -->
+  <g transform="translate(130, 90)">
+    <path d="M0 0 Q10 -5 20 0 Q15 10 10 12 Q5 10 0 0" fill="#4CAF50"/>
+    <path d="M2 2 Q8 -2 16 2 Q13 8 8 9 Q5 7 2 2" fill="#66BB6A"/>
+    <line x1="5" y1="5" x2="15" y2="5" stroke="#388E3C" stroke-width="0.5"/>
+  </g>
+</svg>
